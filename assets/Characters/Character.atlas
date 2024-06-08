@@ -1,0 +1,27 @@
+
+Character.png
+size: 512, 256
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+Character_Idle
+  rotate: false
+  xy: 326, 66
+  size: 64, 128
+  orig: 64, 128
+  offset: 0, 0
+  index: -1
+Character_Slash
+  rotate: false
+  xy: 2, 2
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+Character_Walk
+  rotate: false
+  xy: 196, 66
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
