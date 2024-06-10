@@ -23,7 +23,7 @@ public class MainMenuScreen implements Screen {
         stage = new Stage();
         skin = new Skin(Gdx.files.internal("assets/UI/Interface/kenney-pixel/skin/skin.json"));
 
-        backgroundTexture = new Texture(Gdx.files.absolute("D:\\DungeonCrawlerGame\\assets\\Tiled\\Tilemaps\\BeginningFields.png"));
+        backgroundTexture = new Texture(Gdx.files.absolute("assets/Tiled/Tilemaps/BeginningFields.png"));
 
         label = new Label("Название игры", skin);
         label.setPosition(Gdx.graphics.getWidth() / 2, Gdx.graphics.getHeight() / 2 + 50);

@@ -34,7 +34,7 @@ public class SettingsScreen implements Screen {
         stage = new Stage();
         skin = new Skin(Gdx.files.internal("assets/UI/Interface/kenney-pixel/skin/skin.json"));
 
-        backgroundTexture = new Texture(Gdx.files.absolute("D:\\DungeonCrawlerGame\\assets\\Tiled\\Tilemaps\\BeginningFields.png"));
+        backgroundTexture = new Texture(Gdx.files.absolute("assets/Tiled/Tilemaps/BeginningFields.png"));
 
         Preferences prefs = Gdx.app.getPreferences("My Preferences");
         int resolution = prefs.getInteger("resolution", 800); // значение по умолчанию 800
